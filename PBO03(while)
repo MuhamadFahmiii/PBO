@@ -1,0 +1,55 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package id.ac.upj.tif.petemuan3.pbo03;
+
+/**
+ *
+ * @author Muhamad Fahmi
+ */
+public class PBO03 {
+
+    public static void main(String[] args) {
+            for (int i=10; i >0 ; i--){
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+        }
+    }
+}
+
+
+
+
+/* jika ingin menggunakan for
+
+  for (int i=10; i >0 ; i--){
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+        }
+    }
+}
+
+-----------------------------
+jika ingin menggunakan while
+ 
+int i = 10;
+        while (i > 0){
+            System.out.println("Anak ayam turun " + i + "Pergi satu tinggal " + (i-1));
+            i--;
+        }
+        System.out.println("Tinggal Induknya");
+    }
+}
+------------------------------
+jika ingin menggunakan do while
+
+  int i = 10;
+        do
+        {
+            System.out.println("Anak ayam turun " + i + "Pergi satu tinggal " + (i-1));
+            i--;
+        }
+        while (i > 0);
+        System.out.println("Tinggal Induknya");
+    }
+
+*/
