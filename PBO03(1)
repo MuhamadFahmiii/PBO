@@ -1,0 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package id.ac.upj.tif.petemuan3.pbo03;
+
+/**
+ *
+ * @author Muhamad Fahmi
+ */
+public class PBO03 {
+
+    public static void main(String[] args) {
+            for (int i=10; i >0 ; i--){
+            System.out.println("Anak ayam turun " + i + " pergi satu tinggal " + (i-1));
+        }
+    }
+}
